@@ -1,0 +1,20 @@
+{
+  "name": "tosca-junit-parser",
+  "version": "1.1.1",
+  "description": "Tosca JUnit Test Result Parser",
+  "main": "parser.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QASymphony/qtest-launch/tree/master/universal-agent/parsers/tosca-junit"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "globby": "^8.0.1",
+    "xml2js": "latest"
+  },
+  "author": "QASymphony",
+  "license": "ISC"
+}
